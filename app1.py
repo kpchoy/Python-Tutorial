@@ -9,3 +9,10 @@
 # weight = input("what is your weight: ")
 # kilo = int(weight) * 0.453592
 # print(kilo)
+
+# string operators
+# course = "Python for beginners"
+# print(len(course))
+# print(course.upper())
+# print(course.find("o"))
+# print(course.replace("P", "J"))
