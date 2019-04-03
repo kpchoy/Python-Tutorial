@@ -135,13 +135,45 @@
 
 # emojii dictionary
 # emojii ctr + cmd + space
+# message = input("> ")
+# words = message.split(" ")
+# emojiis = {
+#     ":)": "😁",
+#     ":(": "😞"
+# }
+# output = ""
+# for word in words:
+#     output += emojiis.get(word, word) + " "
+# print(output)
+
+
+# functions
+# def greet_user(first_name, last_name):
+#     print(f"hi {first_name} {last_name}")
+
+
+# # keyword arguments
+# greet_user(last_name="Smith", first_name="John")
+# # positional arguments
+# greet_user("John", "Smith")
+
+
+# emojii dictionary
+# emojii ctr + cmd + space
+
 message = input("> ")
-words = message.split(" ")
-emojiis = {
-    ":)": "😁",
-    ":(": "😞"
-}
-output = ""
-for word in words:
-    output += emojiis.get(word, word) + " "
-print(output)
+
+
+def to_emojii(sentence):
+    words = sentence.split(" ")
+    emojiis = {
+        ":)": "😁",
+        ":(": "😞"
+    }
+    output = ""
+    for word in words:
+        output += emojiis.get(word, word) + " "
+    return output
+
+
+print(to_emojii(message))
