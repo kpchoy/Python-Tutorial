@@ -86,3 +86,62 @@
 #     for occurance in range(times):
 #         output += "x"
 #     print(output)
+
+# list = [9, 10, 30, 8, 7, 45, 8]
+# max = 0
+# for num in list:
+#     if num > max:
+#         max = num
+
+# print(max)
+
+
+# uniques excercise
+# numbers = [2, 2, 4, 6, 3, 4, 6, 1]
+# numbers2: list = []
+
+# for num in numbers:
+#     if num not in numbers2:
+#         numbers2.append(num)
+# print(numbers2)
+# print(numbers)
+
+
+# tuple
+# coordinates = (1, 2, 3)
+# x, y, z = coordinates
+
+# print(x, y, z)
+
+
+# dicitonaries
+# customer = {
+#     "bill": "happpy",
+#     "jancie": "sad"
+# }
+# print(customer["bill"])
+
+# nums_hash = {
+#     "1": "one",
+#     "2": "two",
+#     "3": "three",
+#     "4": "four",
+# }
+# number = input("What is your phone number ")
+# res = ""
+# for num in number:
+#     res += nums_hash.get(num, "!") + " "
+# print(res)
+
+# emojii dictionary
+# emojii ctr + cmd + space
+message = input("> ")
+words = message.split(" ")
+emojiis = {
+    ":)": "😁",
+    ":(": "😞"
+}
+output = ""
+for word in words:
+    output += emojiis.get(word, word) + " "
+print(output)
