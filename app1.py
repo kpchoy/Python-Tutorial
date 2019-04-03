@@ -65,3 +65,24 @@
 #         break
 #     else:
 #         print("sorry i dont udnerstand")
+
+# for loop
+# prices = [10, 20, 30]
+# total = 0
+# for price in prices:
+#     total += price
+
+# print(total)
+
+# nested loop
+# for x in range(4):
+#     for y in range(3):
+#         print(f"({x}, {y})")
+
+
+# numbers = [5, 2, 5, 2, 2]
+# for times in numbers:
+#     output = ""
+#     for occurance in range(times):
+#         output += "x"
+#     print(output)
