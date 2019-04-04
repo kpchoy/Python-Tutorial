@@ -202,13 +202,43 @@
 # obj1 = Point(30, 20)
 # print(obj1.x)
 
-class Person:
-    def __init__(self, name):
-        self.name = name
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
 
-    def talk(self):
-        print(f"hello {self.name} how are you?")
+#     def talk(self):
+#         print(f"hello {self.name} how are you?")
 
 
-kevin = Person("Kevin")
-kevin.talk()
+# kevin = Person("Kevin")
+# kevin.talk()
+
+
+# inheritance
+# class Mammal:
+#     def walk(self):
+#         print("walking")
+
+
+# class Dog(Mammal):
+#     pass
+
+
+# class Cat(Mammal):
+#     pass
+
+
+# dog = Dog()
+# dog.walk()
+
+# cat = Cat()
+# cat.walk()
+
+
+# modules - to better organize code
+# import converters
+# from converters import kg_to_lbs
+# print(kg_to_lbs(100))
+
+
+# 3:30 packages
