@@ -161,19 +161,54 @@
 # emojii dictionary
 # emojii ctr + cmd + space
 
-message = input("> ")
+
+# def to_emojii(sentence):
+#     words = sentence.split(" ")
+#     emojiis = {
+#         ":)": "😁",
+#         ":(": "😞"
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojiis.get(word, word) + " "
+#     return output
 
 
-def to_emojii(sentence):
-    words = sentence.split(" ")
-    emojiis = {
-        ":)": "😁",
-        ":(": "😞"
-    }
-    output = ""
-    for word in words:
-        output += emojiis.get(word, word) + " "
-    return output
+# message = input("> ")
+# print(to_emojii(message))
 
 
-print(to_emojii(message))
+# handle errors
+# try:
+#     age = int(input("Age: "))
+#     print(age)
+# except ValueError:
+#     print("invalid value")
+
+
+# classes
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+#     def move(self):
+#         print("moving")
+
+#     def yell(self):
+#         print("yo selfie")
+
+
+# obj1 = Point(30, 20)
+# print(obj1.x)
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def talk(self):
+        print(f"hello {self.name} how are you?")
+
+
+kevin = Person("Kevin")
+kevin.talk()
