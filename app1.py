@@ -241,4 +241,6 @@
 # print(kg_to_lbs(100))
 
 
-# 3:30 packages
+# Packages ecommerce
+from ecommerce.shipping import calc_shipping
+calc_shipping()
