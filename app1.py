@@ -242,5 +242,29 @@
 
 
 # Packages ecommerce
-from ecommerce.shipping import calc_shipping
-calc_shipping()
+# from ecommerce import shipping
+# shipping.calc_shipping()
+
+
+# built in modules
+# import random
+# for i in range(5):
+#     print(random.randint(0, 10))
+
+# members = ['Jerry', 'Jennifer', 'Mateo', 'Bensen']
+# leader = random.choice(members)
+# print(leader)
+
+# Dice excercise
+import random
+
+
+class Dice:
+    def roll(self):
+        first = random.randint(1, 6)
+        second = random.randint(1, 6)
+        return first, second
+
+
+dice = Dice()
+print(dice.roll())
